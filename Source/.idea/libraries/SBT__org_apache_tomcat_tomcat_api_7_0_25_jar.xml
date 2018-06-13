@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.apache.tomcat:tomcat-api:7.0.25:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.tomcat/tomcat-api/jars/tomcat-api-7.0.25.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.tomcat/tomcat-api/srcs/tomcat-api-7.0.25-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
