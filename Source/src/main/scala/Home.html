@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Movies</title>
+    <script>
+        function query1(){
+            document.getElementById('frame').src='BarChart.html';
+        }
+        function query2(){
+            document.getElementById('frame').src='PieChart.html';
+        }
+        function query3(){
+            document.getElementById('frame').src='BubbleChart.html';
+        }
+        function query4(){
+            document.getElementById('frame').src='Pyramid.html';
+        }
+        function query5(){
+            document.getElementById('frame').src='WorldMap.html';
+        }
+
+    </script>
+    <style type="text/css">
+        .abc {
+            background-color:lightgoldenrodyellow;
+            border: none;
+            color:saddlebrown;
+            padding: 15px 0px;
+            text-align: center;
+            text-decoration: none;
+            border-radius:8px;
+            display: inline-block;
+            font-size: 24px;
+            font-family:Broadway;
+            font-style:normal;
+        }
+
+        .ab{
+            position:relative;
+            height: 100%;
+            width: 100%;
+            z-index: 0;
+            background-image: url('bg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+
+<body class="ab">
+<div align=center>
+    <h1 style="margin-bottom: 40px; text-align: center; font-family:'Berlin Sans FB';text-shadow: 4px 4px white;font-size:100px;color:black;font-style:normal;"> Movie Tweets</h2>
+        <!--<div style="top:100px; left:45px;">-->
+        <button onclick="query1()" style="width:150px;" class="abc">Popular Movie Languages</button>
+        <button onclick="query2()" style="width:150px;" class="abc">Popular Movie Types</button>
+        <button onclick="query3()" style="width:150px;" class="abc">Highest Movie Count</button>
+        <button onclick="query4()" style="width:150px;" class="abc">Users Created Count</button>
+        <button onclick="query5()" style="width:150px;" class="abc">Users Count</button>
+
+        <br><br>
+        <div style="left:30px;">
+            <iframe id='frame' src='' style="height: 750px; width:1000px;background-color:lightgoldenrodyellow"></iframe></div>
+</div>
+</body>
+</html>
